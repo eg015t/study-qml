@@ -1,0 +1,5 @@
+module QmlExtension
+Calendar 1.0 Calendar.qml
+YearCalendar 1.0 YearCalendar.qml
+plugin qmlextension
+

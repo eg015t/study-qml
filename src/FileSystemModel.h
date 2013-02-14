@@ -33,7 +33,14 @@ public:
    */
   Q_INVOKABLE QModelIndex indexFromPath(const QString & path, int column = 0) const;
 
+  /*!
+   * @brief получение имени файла
+   */
   Q_INVOKABLE QString fileName(const QModelIndex & index) const;
+
+  /*!
+   * @brief получиение пути
+   */
   Q_INVOKABLE QString filePath(const QModelIndex & index) const;
 
   /*!
@@ -41,6 +48,9 @@ public:
    */
   Q_INVOKABLE bool isDir(const QString& path) const;
 
+  /*!
+   * @brief получение родительского индекса
+   */
   Q_INVOKABLE QModelIndex parentIndex(const QModelIndex& child) const;
 
 signals:

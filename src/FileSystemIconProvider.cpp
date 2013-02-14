@@ -19,7 +19,5 @@ QPixmap FileSystemIconProvider::requestPixmap(const QString & id, QSize * size, 
 
   QIcon icon = iconProvider_.icon(id);
 
-  requestedSize.isValid();
-
   return icon.pixmap( requestedSize.isValid() ? requestedSize :  *size);
 }

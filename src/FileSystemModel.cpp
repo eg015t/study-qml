@@ -48,5 +48,3 @@ QModelIndex FileSystemModel::parentIndex(const QModelIndex& child) const
 {
   return QFileSystemModel::parent(child);
 }
-
-Q_DECLARE_METATYPE(QModelIndex)

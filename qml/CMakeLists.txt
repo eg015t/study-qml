@@ -1,6 +1,7 @@
 set(OUT_FILES   qmldir
                 Calendar.qml
                 YearCalendar.qml
+                FileSystemModel.qml
 )
 
 
